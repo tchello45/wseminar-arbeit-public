@@ -1,0 +1,34 @@
+[
+  {
+    "source": "tools/src/simulation/ergebnisse/css-awgn.csv",
+    "sha256": "21bd8b7c18445f855d255408763c0fe181fd69156fb49274b6e56fdd0fa29865"
+  },
+  {
+    "source": "tools/src/simulation/ergebnisse/css-awgn-energy.csv",
+    "sha256": "56f29ad8b9fe3e5c647ccedb7e396141dcc284a90dc83523d08ca621f5c038d0"
+  },
+  {
+    "source": "tools/src/simulation/ergebnisse/css-offset-awgn.csv",
+    "sha256": "797a72146c763f5a1beb6616bd49679c663801fdb6c3ec5d02550e426c06d60c"
+  },
+  {
+    "source": "arbeit/abbildungen/nanovna-aufbau.svg",
+    "sha256": "f56f47c70360459cd0aebb287b3e5ea49872c3fb2823da9cf5215597334270c2"
+  },
+  {
+    "source": "arbeit/abbildungen/nanovna-standards.svg",
+    "sha256": "1bad1665f3873e0f0b31b34d46440239560ae8d0f33a2adc48f2d9bbd9348372"
+  },
+  {
+    "source": "arbeit/abbildungen/nanovna-kabel.svg",
+    "sha256": "6fda412147150c83d3236f29e739333598cdbf94b62623790e50f643121140da"
+  },
+  {
+    "source": "arbeit/abbildungen/pcb-ifa-prinzip.svg",
+    "sha256": "56c8b69496f112539adf6308f1254a17c42ced89ce0fd363addb20bd0b95d684"
+  },
+  {
+    "source": "arbeit.pdf",
+    "sha256": "d390f5a4308fe3c5d8468b806bc14f104629caac953dacb023feb39d781f4015"
+  }
+]

@@ -1,0 +1,4 @@
+sf,bandwidth_hz,samples_per_symbol,symbol_time_s,uncoded_bit_rate_bps
+7,125000.0,128,0.001024,6835.9375
+8,125000.0,256,0.002048,3906.25
+9,125000.0,512,0.004096,2197.265625

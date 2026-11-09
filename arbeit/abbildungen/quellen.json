@@ -1,0 +1,34 @@
+{
+  "css-dechirping.svg": {
+    "source": "tools/src/simulation/ergebnisse/css-dechirping.svg",
+    "sha256": "b5beaee4332cf20d3e9bf26001b24eefd4b39227aea47e7a4d2a4a3042f03ac5"
+  },
+  "css-awgn.svg": {
+    "source": "tools/src/simulation/ergebnisse/css-awgn.svg",
+    "sha256": "14352c05ae25e6c021efb9434f1536d74645f0dcf2509810d500a403954e3fec"
+  },
+  "css-awgn-energy.svg": {
+    "source": "tools/src/simulation/ergebnisse/css-awgn-energy.svg",
+    "sha256": "5f9a9261c8e7ae1cd3370b78191a7052c3fd3d2c77713cc635f634cb12f045fe"
+  },
+  "css-offset-awgn.svg": {
+    "source": "tools/src/simulation/ergebnisse/css-offset-awgn.svg",
+    "sha256": "037bdf5279ecb6e6e662a19f06bf15d9910e5afde0cdaf13e4838c1e0677ebd7"
+  },
+  "nanovna-aufbau.svg": {
+    "source": "daten/auswertung/kapitel7/aufbau.svg",
+    "sha256": "f56f47c70360459cd0aebb287b3e5ea49872c3fb2823da9cf5215597334270c2"
+  },
+  "nanovna-standards.svg": {
+    "source": "daten/auswertung/kapitel7/standards.svg",
+    "sha256": "1bad1665f3873e0f0b31b34d46440239560ae8d0f33a2adc48f2d9bbd9348372"
+  },
+  "nanovna-kabel.svg": {
+    "source": "daten/auswertung/kapitel7/kabel.svg",
+    "sha256": "6fda412147150c83d3236f29e739333598cdbf94b62623790e50f643121140da"
+  },
+  "nanovna-geraeteabgleich.png": {
+    "source": "nachweise/RS02-geraet-2026-11-05/screen-frozen.png",
+    "sha256": "90981891bc180767090c5036fe09cde917f2b600dd3912283f5cab4ce733875e"
+  }
+}

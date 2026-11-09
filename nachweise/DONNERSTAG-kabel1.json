@@ -1,0 +1,83 @@
+[
+  {
+    "configuration": "Kabel1_Offen",
+    "repeat": 1,
+    "file": "daten/nanovna/20261105T111935_090151/Kabel1_Offen_01_01/Kabel1_Offen_01_01.s1p",
+    "points": 101,
+    "sha256": "5a20f01095ba267741d4799448154f9e7f5bc77e349caa455a54fc1fd3f117ff",
+    "magnitude_2_4GHz": 0.9827402550470801,
+    "phase_deg_2_4GHz": 89.30041622126255
+  },
+  {
+    "configuration": "Kabel1_Offen",
+    "repeat": 2,
+    "file": "daten/nanovna/20261105T112111_378940/Kabel1_Offen_02_01/Kabel1_Offen_02_01.s1p",
+    "points": 101,
+    "sha256": "932c43fc9a9522f96da00a78d134ad298d01928c0986f2e4bdd9fc8d8b4f89df",
+    "magnitude_2_4GHz": 0.9873916272771408,
+    "phase_deg_2_4GHz": 89.77479503905593
+  },
+  {
+    "configuration": "Kabel1_Offen",
+    "repeat": 3,
+    "file": "daten/nanovna/20261105T112307_585228/Kabel1_Offen_03_01/Kabel1_Offen_03_01.s1p",
+    "points": 101,
+    "sha256": "c58ce544fdd345cd7001e3d8f88b1b51654ca151abf93df88fb861c2c92d7ba0",
+    "magnitude_2_4GHz": 0.9842055037485821,
+    "phase_deg_2_4GHz": 89.87076201271543
+  },
+  {
+    "configuration": "Kabel1_Adapter_Short",
+    "repeat": 1,
+    "file": "daten/nanovna/20261105T112544_055644/Kabel1_Adapter_Short_01_01/Kabel1_Adapter_Short_01_01.s1p",
+    "points": 101,
+    "sha256": "d2d2427f4eed9c59bbdaa7e617061bc171e0da9005e116d574296e0bf73ed737",
+    "magnitude_2_4GHz": 0.90223042913493,
+    "phase_deg_2_4GHz": -171.16738458073405
+  },
+  {
+    "configuration": "Kabel1_Adapter_Short",
+    "repeat": 2,
+    "file": "daten/nanovna/20261105T112929_028549/Kabel1_Adapter_Short_02_01/Kabel1_Adapter_Short_02_01.s1p",
+    "points": 101,
+    "sha256": "0d8cc8445508fb5afd2618d0750c0a7d0b09d665869a24142f0a97fa9d615820",
+    "magnitude_2_4GHz": 0.9055183649291714,
+    "phase_deg_2_4GHz": -171.7510999759535
+  },
+  {
+    "configuration": "Kabel1_Adapter_Short",
+    "repeat": 3,
+    "file": "daten/nanovna/20261105T113052_092270/Kabel1_Adapter_Short_03_01/Kabel1_Adapter_Short_03_01.s1p",
+    "points": 101,
+    "sha256": "1e54cd58c263fd58d80046472c5fc3270fac179e1edb86c3740b46c625348a57",
+    "magnitude_2_4GHz": 0.9087806461165422,
+    "phase_deg_2_4GHz": -170.93492392252222
+  },
+  {
+    "configuration": "Kabel1_Adapter_Open",
+    "repeat": 1,
+    "file": "daten/nanovna/20261105T113153_831794/Kabel1_Adapter_Open_01_01/Kabel1_Adapter_Open_01_01.s1p",
+    "points": 101,
+    "sha256": "e974881aca503506a8669d8fc2bb512bdc0e209f265e60b0e3d1f0d47da3400a",
+    "magnitude_2_4GHz": 0.9426193474282182,
+    "phase_deg_2_4GHz": 10.188605401745482
+  },
+  {
+    "configuration": "Kabel1_Adapter_Open",
+    "repeat": 2,
+    "file": "daten/nanovna/20261105T113327_016526/Kabel1_Adapter_Open_02_01/Kabel1_Adapter_Open_02_01.s1p",
+    "points": 101,
+    "sha256": "da56e7ffdbba1e1105c538f219ec7bc5032cd0aa933636e1c4220a5f27621ec9",
+    "magnitude_2_4GHz": 0.9375947550023944,
+    "phase_deg_2_4GHz": 10.601005822172718
+  },
+  {
+    "configuration": "Kabel1_Adapter_Open",
+    "repeat": 3,
+    "file": "daten/nanovna/20261105T113440_163712/Kabel1_Adapter_Open_03_01/Kabel1_Adapter_Open_03_01.s1p",
+    "points": 101,
+    "sha256": "b02bb2bd52bfea912260e0d5800c66ae728010d954d4df128ff35aea3763bfef",
+    "magnitude_2_4GHz": 0.9409775933660696,
+    "phase_deg_2_4GHz": 10.167287877383727
+  }
+]

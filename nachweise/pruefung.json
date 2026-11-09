@@ -1,0 +1,352 @@
+{
+  "created_utc": "2026-11-07T14:17:52.967686+00:00",
+  "steps": [
+    {
+      "name": "python-tests",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/tests",
+        "-v"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "rust-tests",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--offline",
+        "--manifest-path",
+        "auswertung/Cargo.toml"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "rust-clippy",
+      "command": [
+        "cargo",
+        "clippy",
+        "--locked",
+        "--offline",
+        "--manifest-path",
+        "auswertung/Cargo.toml",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "rust-format",
+      "command": [
+        "cargo",
+        "fmt",
+        "--manifest-path",
+        "auswertung/Cargo.toml",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "grundlagen",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "scripts/check_grundlagen.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "css-theorie",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "scripts/check_css_theorie.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "pcb-entwurf",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "scripts/check_pcb_entwurf.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "mittwoch-pilot",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "scripts/review_mittwoch.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "chirp-fft",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "-m",
+        "simulation.css"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "kapitel6",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "scripts/check_kapitel6.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "awgn-replay",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "-m",
+        "simulation.basis",
+        "--bandwidth-hz",
+        "125000",
+        "--output",
+        "/tmp/wseminar-check-xkefq53g/project/replay"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "offset-replay",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "-m",
+        "simulation.offset_campaign",
+        "--bandwidth-hz",
+        "125000",
+        "--output",
+        "/tmp/wseminar-check-xkefq53g/project/replay"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "nanovna-replay",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "scripts/auswertung_nanovna.py",
+        "--output",
+        "/tmp/wseminar-check-xkefq53g/project/vna-replay",
+        "--rust-binary",
+        "/tmp/wseminar-check-xkefq53g/cargo/debug/auswertung"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "marker-rust",
+      "command": [
+        "/tmp/wseminar-check-xkefq53g/cargo/debug/auswertung",
+        "--import",
+        "/tmp/wseminar-check-xkefq53g/project/nachweise/RS02-geraet-2026-11-05/frozen-buffer/geraeteabgleich.s1p"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "pilot-rust-01",
+      "command": [
+        "/tmp/wseminar-check-xkefq53g/cargo/debug/auswertung",
+        "--import",
+        "/tmp/wseminar-check-xkefq53g/project/daten/roh/01.s1p"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "pilot-rust-02",
+      "command": [
+        "/tmp/wseminar-check-xkefq53g/cargo/debug/auswertung",
+        "--import",
+        "/tmp/wseminar-check-xkefq53g/project/daten/roh/02.s1p"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "pilot-rust-03",
+      "command": [
+        "/tmp/wseminar-check-xkefq53g/cargo/debug/auswertung",
+        "--import",
+        "/tmp/wseminar-check-xkefq53g/project/daten/roh/03.s1p"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "abbildungen-export",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "scripts/export_abbildungen.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "pdf-build",
+      "command": [
+        "/home/tilman/projects/wseminar-arbeit/tools/.venv/bin/python",
+        "scripts/compile.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "standalone-build",
+      "command": [
+        "typst",
+        "compile",
+        "--root",
+        "/tmp/wseminar-check-xkefq53g/standalone",
+        "--creation-timestamp",
+        "1794061059",
+        "/tmp/wseminar-check-xkefq53g/standalone/main.typ",
+        "/tmp/wseminar-check-xkefq53g/standalone.pdf"
+      ],
+      "returncode": 0
+    }
+  ],
+  "scope": "Offline-Software, Datenintegrität, Reproduktion und PDF-Bau; keine neue Hardwaremessung",
+  "input_sha256": {
+    "arbeit/abbildungen/css-awgn-energy.svg": "5f9a9261c8e7ae1cd3370b78191a7052c3fd3d2c77713cc635f634cb12f045fe",
+    "arbeit/abbildungen/css-awgn.svg": "14352c05ae25e6c021efb9434f1536d74645f0dcf2509810d500a403954e3fec",
+    "arbeit/abbildungen/css-dechirping.svg": "b5beaee4332cf20d3e9bf26001b24eefd4b39227aea47e7a4d2a4a3042f03ac5",
+    "arbeit/abbildungen/css-offset-awgn.svg": "037bdf5279ecb6e6e662a19f06bf15d9910e5afde0cdaf13e4838c1e0677ebd7",
+    "arbeit/abbildungen/nanovna-aufbau.svg": "f56f47c70360459cd0aebb287b3e5ea49872c3fb2823da9cf5215597334270c2",
+    "arbeit/abbildungen/nanovna-geraeteabgleich.png": "90981891bc180767090c5036fe09cde917f2b600dd3912283f5cab4ce733875e",
+    "arbeit/abbildungen/nanovna-kabel.svg": "6fda412147150c83d3236f29e739333598cdbf94b62623790e50f643121140da",
+    "arbeit/abbildungen/nanovna-standards.svg": "1bad1665f3873e0f0b31b34d46440239560ae8d0f33a2adc48f2d9bbd9348372",
+    "arbeit/abbildungen/pcb-ifa-prinzip.svg": "56c8b69496f112539adf6308f1254a17c42ced89ce0fd363addb20bd0b95d684",
+    "arbeit/abbildungen/pcb-lc-anpassung.svg": "e95c93d73a343a0e203023b79ddcb06b20995299c5b10629a0d4628007d12755",
+    "arbeit/abbildungen/quellen.json": "a5ca9b01ab27d720c03adae401cc2604dbb28cc496ea37db46d8109e909933d2",
+    "arbeit/anhang.typ": "bfe153e2c4d98f1359766c3c8ba17eb64d26e8aff3fdf544cdc8cb0318e0b778",
+    "arbeit/erklaerung.typ": "724b66223baea362babe4da27a4f7554c1959e993d14eaa3a30af3c411723dc4",
+    "arbeit/export-quellen.json": "0731e5f5a2f87d5380c3412cf5bc928cacf7cb69a4d26399bcae1ca4bc5bca38",
+    "arbeit/kapitel/01-einleitung.typ": "c6e13e84b9847253320eec13d987d59ee78ffc0096ee85f1871475c53d7d3b34",
+    "arbeit/kapitel/02-grundlagen.typ": "ed8626440571a3b5e9b5a0e6545f5a8bc59b8a116c64e053a483e00aaf9937f8",
+    "arbeit/kapitel/03-css.typ": "3ff90a818fb4fff8ea378646a0ddd6aeae787f5898eb58be9b7ae131954dc2a7",
+    "arbeit/kapitel/04-antennen.typ": "2e529cbac5de1ae9c93ae897bebe2b1c43d82927c07ba2394d279bfc6007bae9",
+    "arbeit/kapitel/04b-pcb-entwurf.typ": "04ded95dfba830658f0bfc1c996506bfe837f85507ff393209e10b8528264ca8",
+    "arbeit/kapitel/05-simulation.typ": "fec674eb09f9a533ab9c0c5c0ad6a22441fda2bb3f80b663fd1ee116ba495236",
+    "arbeit/kapitel/06-messung.typ": "3015be41866af9e5433639c9b24ed2567a66a7fe1ac9e27368e311cdbcc5c173",
+    "arbeit/kapitel/07-diskussion.typ": "9c4f5abebf781c82112be063fa0494f559a4e99c93b44fde2f92475cf563df3a",
+    "arbeit/kapitel/08-fazit.typ": "e9933861ca332aa27301664a65842f848cc8cffe590d95ce5a5b5707507c2816",
+    "arbeit/layout.typ": "de2c10fe5935bac00904e3e88b8e2d888692d1ef787438eb2f9d1d1e62ef6329",
+    "arbeit/listings/kapitel6.py": "23bf230762a5b895c385bb3bafbb07539053a8112be50ddf6fed119f5be12112",
+    "arbeit/literatur.bib": "58caf24aa86d3cd1bbe90635f50a6472956aae294b28bf3b0bb14bf04186e4aa",
+    "arbeit/literatur.typ": "023ee903fedfb60504b9d40611db98d4d301624f6ab854eea9b2a706cae95a98",
+    "arbeit/main.typ": "80636e3ef96996811de96d50400f87a7fc011097f7cea20968dc3b3e2ce7bd0a",
+    "arbeit/tabellen/nanovna-zentrum.typ": "ed62986505ca263c4747368ee5c27a4213e764b659917613f4fe7b03e8d9f9f6",
+    "arbeit/vendor/alexandria-0.2.2/src/hayagriva.typ": "c8f5d1a712bb5972a3c7a6847561cfa731a78f7870f8dfde87c122d2a7b17652",
+    "arbeit/vendor/alexandria-0.2.2/src/internal.typ": "486e7851164b9e3d44b703a899f4263c829e690e191f664c4136faa71506d226",
+    "arbeit/vendor/alexandria-0.2.2/src/lib.typ": "befe80a62caa4cb7799584b4e56d2b91007a16fc3c5c5566c5aaef30434d9ce0",
+    "arbeit/vendor/alexandria-0.2.2/src/state.typ": "bf9fb2f3c5ecb3bfcab250e7777a03b26eae38a971c5608e22bfabe5d4f5548b",
+    "auswertung/Cargo.lock": "116c56eca1e21c585697b7e8d85a9815965a154744d03abe9e81394a73a8d9e1",
+    "auswertung/Cargo.toml": "987727c56e8bb7d1418c739f11fe67a9d2e98a7f74e6fc495a55542350097995",
+    "auswertung/src/csv.rs": "715c81dda2ce2a23fe9b468714a8a5ba8b349b049fb792071e9f38456ac523e0",
+    "auswertung/src/lib.rs": "46f11d00ab2d10caae23e0b3bcf840d6894bee34076d4e377fa1fda7c0b156cb",
+    "auswertung/src/main.rs": "d057572c71277dcf8c7fa8dbcc07e5e2f1d53d89934170895ae7eb16cabf9124",
+    "auswertung/src/touchstone.rs": "ffc51d00e2d7c7e0779f823881aac8c4bd4b1c4f746adb57fef47c707c0bf25d",
+    "auswertung/tests/auswertung.rs": "4c314e699e1ff254b090898730c317e76c9eacb1146ace65b1d4bda9d56af2c5",
+    "auswertung/tests/cli.rs": "886b0600c6d5109ea9b1cace64ede9e7996410b0882856a47d2f8216f105aa84",
+    "literatur.bib": "58caf24aa86d3cd1bbe90635f50a6472956aae294b28bf3b0bb14bf04186e4aa",
+    "scripts/auswertung_nanovna.py": "baf65435a884cb2496d569f72b99c53915f50e50765f7b131a82c7319163daa9",
+    "scripts/check_css_theorie.py": "4c5d7b79294d066d5d589ebb309d32c57f3071d3b9867ffda38fa2970307e3b1",
+    "scripts/check_gesamt.py": "bd106604d1a6878533db1e004a1a8b38743f75fc30db6f7f2123646d4475d44a",
+    "scripts/check_grundlagen.py": "0b0451d5117b151406d283631be83645c99b2b0ecf808a9ece621c16fe0d3abf",
+    "scripts/check_kapitel6.py": "63626484e4f43741ed8368ffb120b05acfff5e54382c7f7616a9fd153e17c6f3",
+    "scripts/check_pcb_entwurf.py": "f2de36f4d888a14fd7ea7e102da001321ba171b935e9340c2786108ab8f19d48",
+    "scripts/compile.py": "f42f29d0b36bbfb4c465a8907c69a2398f3e7f195e5f7b5458015b4fd5e03d0e",
+    "scripts/export_abbildungen.py": "e3fa8a80eace510fde2252231ee4c1c49a145b6173a47d1ae212aaaafd2bba82",
+    "scripts/export_arbeit.py": "6a00c1d63719cdc93af26ce990c751a2c06b7173ee82ee2a54c8957db93c207c",
+    "scripts/nanovna.py": "2c679b34199b5acd7b583b2e825e5261499436716e1f9155450dafa9bbbd632b",
+    "scripts/review_mittwoch.py": "b1d11de3bb0fd3b5d24e83fdf1a01c0f81b67673847ff63419fc24fcbf67a3d1",
+    "tools/src/simulation/__init__.py": "47d93c2cbd3110f07c66ab55cbde2be998c6bb25895298e3310126d776541c22",
+    "tools/src/simulation/basis.py": "0db4bae0e095af296414b341901765d84728e2ae14109f692fa4f7771cd91aef",
+    "tools/src/simulation/css.py": "87b93357f00395854d70c9027e086fc630789b89d261e3bdc3b875047d476dad",
+    "tools/src/simulation/kapitel6.py": "23bf230762a5b895c385bb3bafbb07539053a8112be50ddf6fed119f5be12112",
+    "tools/src/simulation/offset.py": "91cb2e2fcebd80ccb0157397936056035f062de4a0edcc1bc3c91d7079260c64",
+    "tools/src/simulation/offset_campaign.py": "78bfa74e248c61f2764f828a75b614e7e14d00878530f5708c235c22fafb0558",
+    "tools/tests/test_css.py": "cc7ef54b1f64230ee4c6de208fe571f7258b9880c4c6850e7131f3226fb4726b",
+    "tools/tests/test_nanovna.py": "d788d4d4d72442c67e6f8d334b2481f4d2f4444119243ee3a6fd469015b75ed9",
+    "tools/uv.lock": "cde52f8e6ecfd3a539cd32d0ee64d3dda285bb9d03ad66e3170a7c273e6cdac9"
+  },
+  "status": "passed",
+  "campaign_points": 135,
+  "symbol_trials": 675000,
+  "measurement_points": 1818,
+  "marker_points": 101,
+  "serial_acquisitions": 19,
+  "rust_export_comparison_points": 1818,
+  "pilot_rust_comparison_points": 303,
+  "graphics_content_compared": [
+    "css-referenzchirp",
+    "css-symbol-fft",
+    "css-awgn",
+    "css-awgn-energy",
+    "css-offset-awgn",
+    "css-dechirping",
+    "dipol-referenzen",
+    "aufbau",
+    "standards",
+    "kabel"
+  ],
+  "cited_bibliography_keys": [
+    "chang2003",
+    "chiani2019",
+    "demeslay2022",
+    "elrs-fhss-356",
+    "elrs-lua",
+    "elrs-signal",
+    "feynman-interferenz",
+    "feynman18",
+    "feynman20",
+    "gallager-rauschen",
+    "gronau2001",
+    "gustafsson2018",
+    "itu-freiraum",
+    "keysight-calstandards",
+    "keysight-portextensions",
+    "keysight-reflection",
+    "maleki2023",
+    "mathworks-fields",
+    "nist-calstandards",
+    "nist-pegel",
+    "nist-wilson",
+    "ntia-handbuch",
+    "numpy-fft",
+    "numpy-kompatibilitaet",
+    "numpy-streams",
+    "openems-patch-python",
+    "orloff-komplex",
+    "qpdk-microstrip",
+    "semtech-phy",
+    "silabs-an1088",
+    "staelin10",
+    "staelin11",
+    "staelin2",
+    "staelin7",
+    "steer-microstrip",
+    "stutzman2013",
+    "sysjoint-fv2",
+    "ti-an043",
+    "ti-an058",
+    "ti-dn007",
+    "wyatt-signale"
+  ],
+  "local_image_paths": [
+    "arbeit/abbildungen/nanovna-aufbau.svg",
+    "arbeit/abbildungen/nanovna-standards.svg",
+    "arbeit/abbildungen/nanovna-kabel.svg",
+    "arbeit/abbildungen/nanovna-geraeteabgleich.png",
+    "arbeit/abbildungen/css-awgn.svg",
+    "arbeit/abbildungen/css-awgn-energy.svg",
+    "arbeit/abbildungen/css-offset-awgn.svg",
+    "arbeit/abbildungen/pcb-ifa-prinzip.svg",
+    "arbeit/abbildungen/pcb-lc-anpassung.svg",
+    "arbeit/abbildungen/css-dechirping.svg"
+  ],
+  "standalone_arbeit_build": true,
+  "pdf_sha256": "64a5d2e6c50ed28a2e8fb2228289a8bd48399f81a033f5ba4276f01cc25ba448"
+}

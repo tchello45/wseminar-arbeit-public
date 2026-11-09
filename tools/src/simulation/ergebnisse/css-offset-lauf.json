@@ -1,0 +1,480 @@
+{
+  "created_utc": "2026-11-04T15:52:47.171907+00:00",
+  "command": [
+    "/home/tilman/projects/wseminar/tools/.venv/bin/python",
+    "/tmp/wseminar-mittwoch/tools/src/simulation/offset_campaign.py"
+  ],
+  "seed": 20261104,
+  "rng": "PCG64; SeedSequence([seed,3,sf,energy_index,delta_index])",
+  "batch_size": 256,
+  "deltas": [
+    -1.0,
+    -0.75,
+    -0.5,
+    -0.49,
+    -0.25,
+    0.0,
+    0.25,
+    0.49,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "energy_grid_db": [
+    10,
+    16
+  ],
+  "trials_per_point": 5000,
+  "points": 66,
+  "total_symbols": 330000,
+  "model": "uncoded CSS; perfect symbol timing; no frequency-offset correction; offset applied before AWGN",
+  "integer_controls": [
+    {
+      "sf": 7,
+      "M": 128,
+      "delta": 0,
+      "frequency_offset_hz": 0.0,
+      "checked_symbols": 128,
+      "correct": 128,
+      "max_fft_peak_deviation_from_M": 0.0,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 0,
+          "detected": 0
+        },
+        {
+          "sent": 17,
+          "expected": 17,
+          "detected": 17
+        },
+        {
+          "sent": 127,
+          "expected": 127,
+          "detected": 127
+        }
+      ]
+    },
+    {
+      "sf": 7,
+      "M": 128,
+      "delta": 1,
+      "frequency_offset_hz": 976.5625,
+      "checked_symbols": 128,
+      "correct": 128,
+      "max_fft_peak_deviation_from_M": 0.0,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 1,
+          "detected": 1
+        },
+        {
+          "sent": 17,
+          "expected": 18,
+          "detected": 18
+        },
+        {
+          "sent": 127,
+          "expected": 0,
+          "detected": 0
+        }
+      ]
+    },
+    {
+      "sf": 7,
+      "M": 128,
+      "delta": -1,
+      "frequency_offset_hz": -976.5625,
+      "checked_symbols": 128,
+      "correct": 128,
+      "max_fft_peak_deviation_from_M": 1.4210854715202004e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 127,
+          "detected": 127
+        },
+        {
+          "sent": 17,
+          "expected": 16,
+          "detected": 16
+        },
+        {
+          "sent": 127,
+          "expected": 126,
+          "detected": 126
+        }
+      ]
+    },
+    {
+      "sf": 8,
+      "M": 256,
+      "delta": 0,
+      "frequency_offset_hz": 0.0,
+      "checked_symbols": 256,
+      "correct": 256,
+      "max_fft_peak_deviation_from_M": 2.842170943040401e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 0,
+          "detected": 0
+        },
+        {
+          "sent": 17,
+          "expected": 17,
+          "detected": 17
+        },
+        {
+          "sent": 255,
+          "expected": 255,
+          "detected": 255
+        }
+      ]
+    },
+    {
+      "sf": 8,
+      "M": 256,
+      "delta": 1,
+      "frequency_offset_hz": 488.28125,
+      "checked_symbols": 256,
+      "correct": 256,
+      "max_fft_peak_deviation_from_M": 2.842170943040401e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 1,
+          "detected": 1
+        },
+        {
+          "sent": 17,
+          "expected": 18,
+          "detected": 18
+        },
+        {
+          "sent": 255,
+          "expected": 0,
+          "detected": 0
+        }
+      ]
+    },
+    {
+      "sf": 8,
+      "M": 256,
+      "delta": -1,
+      "frequency_offset_hz": -488.28125,
+      "checked_symbols": 256,
+      "correct": 256,
+      "max_fft_peak_deviation_from_M": 2.842170943040401e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 255,
+          "detected": 255
+        },
+        {
+          "sent": 17,
+          "expected": 16,
+          "detected": 16
+        },
+        {
+          "sent": 255,
+          "expected": 254,
+          "detected": 254
+        }
+      ]
+    },
+    {
+      "sf": 9,
+      "M": 512,
+      "delta": 0,
+      "frequency_offset_hz": 0.0,
+      "checked_symbols": 512,
+      "correct": 512,
+      "max_fft_peak_deviation_from_M": 5.684341886080802e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 0,
+          "detected": 0
+        },
+        {
+          "sent": 17,
+          "expected": 17,
+          "detected": 17
+        },
+        {
+          "sent": 511,
+          "expected": 511,
+          "detected": 511
+        }
+      ]
+    },
+    {
+      "sf": 9,
+      "M": 512,
+      "delta": 1,
+      "frequency_offset_hz": 244.140625,
+      "checked_symbols": 512,
+      "correct": 512,
+      "max_fft_peak_deviation_from_M": 5.684341886080802e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 1,
+          "detected": 1
+        },
+        {
+          "sent": 17,
+          "expected": 18,
+          "detected": 18
+        },
+        {
+          "sent": 511,
+          "expected": 0,
+          "detected": 0
+        }
+      ]
+    },
+    {
+      "sf": 9,
+      "M": 512,
+      "delta": -1,
+      "frequency_offset_hz": -244.140625,
+      "checked_symbols": 512,
+      "correct": 512,
+      "max_fft_peak_deviation_from_M": 5.684341886080802e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 511,
+          "detected": 511
+        },
+        {
+          "sent": 17,
+          "expected": 16,
+          "detected": 16
+        },
+        {
+          "sent": 511,
+          "expected": 510,
+          "detected": 510
+        }
+      ]
+    }
+  ],
+  "fractional_controls": [
+    {
+      "sf": 7,
+      "delta": -1.0,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 7,
+      "delta": -0.75,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 7,
+      "delta": -0.5,
+      "checked_symbols": 128,
+      "status": "equal neighboring peak magnitudes; argmax tie is not physical"
+    },
+    {
+      "sf": 7,
+      "delta": -0.49,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 7,
+      "delta": -0.25,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 7,
+      "delta": 0.0,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 7,
+      "delta": 0.25,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 7,
+      "delta": 0.49,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 7,
+      "delta": 0.5,
+      "checked_symbols": 128,
+      "status": "equal neighboring peak magnitudes; argmax tie is not physical"
+    },
+    {
+      "sf": 7,
+      "delta": 0.75,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 7,
+      "delta": 1.0,
+      "checked_symbols": 128,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": -1.0,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": -0.75,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": -0.5,
+      "checked_symbols": 256,
+      "status": "equal neighboring peak magnitudes; argmax tie is not physical"
+    },
+    {
+      "sf": 8,
+      "delta": -0.49,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": -0.25,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": 0.0,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": 0.25,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": 0.49,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": 0.5,
+      "checked_symbols": 256,
+      "status": "equal neighboring peak magnitudes; argmax tie is not physical"
+    },
+    {
+      "sf": 8,
+      "delta": 0.75,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 8,
+      "delta": 1.0,
+      "checked_symbols": 256,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": -1.0,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": -0.75,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": -0.5,
+      "checked_symbols": 512,
+      "status": "equal neighboring peak magnitudes; argmax tie is not physical"
+    },
+    {
+      "sf": 9,
+      "delta": -0.49,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": -0.25,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": 0.0,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": 0.25,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": 0.49,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": 0.5,
+      "checked_symbols": 512,
+      "status": "equal neighboring peak magnitudes; argmax tie is not physical"
+    },
+    {
+      "sf": 9,
+      "delta": 0.75,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    },
+    {
+      "sf": 9,
+      "delta": 1.0,
+      "checked_symbols": 512,
+      "status": "all symbols: nearest FFT bin confirmed"
+    }
+  ],
+  "confidence": "pointwise two-sided 95% Wilson; not simultaneous; no model uncertainty",
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "offset_campaign.py": "1b3b1c6670c5f05ec814483605569a91008996ee9ebdd6309afbe8f26edf808a",
+    "offset.py": "d6ac280845469afb623c8f06cb5f6197832eed8dda566bd7b9408c621e334977",
+    "css.py": "a8ea0555c14bed688854ccd7a49bd33f6e04586fd022611dce16de8fcc798475",
+    "basis.py": "532cd7d05486556df1df17de83920f0a85084c17b645435e0729b08a1a2e11e6"
+  },
+  "csv_sha256": "797a72146c763f5a1beb6616bd49679c663801fdb6c3ec5d02550e426c06d60c"
+}

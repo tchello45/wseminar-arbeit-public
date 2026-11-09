@@ -1,0 +1,25 @@
+[project]
+name = "tools"
+version = "0.1.0"
+description = "CSS simulations and plotting tools for the W-Seminar thesis"
+readme = "README.md"
+authors = [
+    { name = "tchello45", email = "tilman.kurmayer@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+]
+
+[project.scripts]
+css-simulation = "simulation.basis:main"
+css-chirp = "simulation.css:main"
+css-offset = "simulation.offset:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "simulation"

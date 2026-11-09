@@ -1,0 +1,255 @@
+{
+  "created_utc": "2026-11-03T17:27:36.004632+00:00",
+  "bandwidth_hz": 125000,
+  "sample_rate_hz": 125000,
+  "model": "uncoded discrete CSS; noiseless; perfect symbol timing",
+  "definition": "delta = frequency_offset_hz / (B/M)",
+  "signal_multiplier": "exp(1j * 2*pi * delta*n/M); n=0,...,M-1",
+  "expected_bin": "(symbol + delta) mod M for integer delta",
+  "zero_offset_samples_unchanged": true,
+  "fft_peak_absolute_tolerance": 1e-10,
+  "source_sha256": {
+    "css.py": "a8ea0555c14bed688854ccd7a49bd33f6e04586fd022611dce16de8fcc798475",
+    "offset.py": "d6ac280845469afb623c8f06cb5f6197832eed8dda566bd7b9408c621e334977"
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.5.4"
+  },
+  "controls": [
+    {
+      "sf": 7,
+      "M": 128,
+      "delta": 0,
+      "frequency_offset_hz": 0.0,
+      "checked_symbols": 128,
+      "correct": 128,
+      "max_fft_peak_deviation_from_M": 0.0,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 0,
+          "detected": 0
+        },
+        {
+          "sent": 17,
+          "expected": 17,
+          "detected": 17
+        },
+        {
+          "sent": 127,
+          "expected": 127,
+          "detected": 127
+        }
+      ]
+    },
+    {
+      "sf": 7,
+      "M": 128,
+      "delta": 1,
+      "frequency_offset_hz": 976.5625,
+      "checked_symbols": 128,
+      "correct": 128,
+      "max_fft_peak_deviation_from_M": 0.0,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 1,
+          "detected": 1
+        },
+        {
+          "sent": 17,
+          "expected": 18,
+          "detected": 18
+        },
+        {
+          "sent": 127,
+          "expected": 0,
+          "detected": 0
+        }
+      ]
+    },
+    {
+      "sf": 7,
+      "M": 128,
+      "delta": -1,
+      "frequency_offset_hz": -976.5625,
+      "checked_symbols": 128,
+      "correct": 128,
+      "max_fft_peak_deviation_from_M": 1.4210854715202004e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 127,
+          "detected": 127
+        },
+        {
+          "sent": 17,
+          "expected": 16,
+          "detected": 16
+        },
+        {
+          "sent": 127,
+          "expected": 126,
+          "detected": 126
+        }
+      ]
+    },
+    {
+      "sf": 8,
+      "M": 256,
+      "delta": 0,
+      "frequency_offset_hz": 0.0,
+      "checked_symbols": 256,
+      "correct": 256,
+      "max_fft_peak_deviation_from_M": 2.842170943040401e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 0,
+          "detected": 0
+        },
+        {
+          "sent": 17,
+          "expected": 17,
+          "detected": 17
+        },
+        {
+          "sent": 255,
+          "expected": 255,
+          "detected": 255
+        }
+      ]
+    },
+    {
+      "sf": 8,
+      "M": 256,
+      "delta": 1,
+      "frequency_offset_hz": 488.28125,
+      "checked_symbols": 256,
+      "correct": 256,
+      "max_fft_peak_deviation_from_M": 2.842170943040401e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 1,
+          "detected": 1
+        },
+        {
+          "sent": 17,
+          "expected": 18,
+          "detected": 18
+        },
+        {
+          "sent": 255,
+          "expected": 0,
+          "detected": 0
+        }
+      ]
+    },
+    {
+      "sf": 8,
+      "M": 256,
+      "delta": -1,
+      "frequency_offset_hz": -488.28125,
+      "checked_symbols": 256,
+      "correct": 256,
+      "max_fft_peak_deviation_from_M": 2.842170943040401e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 255,
+          "detected": 255
+        },
+        {
+          "sent": 17,
+          "expected": 16,
+          "detected": 16
+        },
+        {
+          "sent": 255,
+          "expected": 254,
+          "detected": 254
+        }
+      ]
+    },
+    {
+      "sf": 9,
+      "M": 512,
+      "delta": 0,
+      "frequency_offset_hz": 0.0,
+      "checked_symbols": 512,
+      "correct": 512,
+      "max_fft_peak_deviation_from_M": 5.684341886080802e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 0,
+          "detected": 0
+        },
+        {
+          "sent": 17,
+          "expected": 17,
+          "detected": 17
+        },
+        {
+          "sent": 511,
+          "expected": 511,
+          "detected": 511
+        }
+      ]
+    },
+    {
+      "sf": 9,
+      "M": 512,
+      "delta": 1,
+      "frequency_offset_hz": 244.140625,
+      "checked_symbols": 512,
+      "correct": 512,
+      "max_fft_peak_deviation_from_M": 5.684341886080802e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 1,
+          "detected": 1
+        },
+        {
+          "sent": 17,
+          "expected": 18,
+          "detected": 18
+        },
+        {
+          "sent": 511,
+          "expected": 0,
+          "detected": 0
+        }
+      ]
+    },
+    {
+      "sf": 9,
+      "M": 512,
+      "delta": -1,
+      "frequency_offset_hz": -244.140625,
+      "checked_symbols": 512,
+      "correct": 512,
+      "max_fft_peak_deviation_from_M": 5.684341886080802e-14,
+      "examples": [
+        {
+          "sent": 0,
+          "expected": 511,
+          "detected": 511
+        },
+        {
+          "sent": 17,
+          "expected": 16,
+          "detected": 16
+        },
+        {
+          "sent": 511,
+          "expected": 510,
+          "detected": 510
+        }
+      ]
+    }
+  ]
+}

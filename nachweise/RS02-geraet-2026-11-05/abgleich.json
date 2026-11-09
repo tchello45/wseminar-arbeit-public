@@ -1,0 +1,22 @@
+{
+  "frequency_hz": 2400000000.0,
+  "device_display_s11_db": -0.52,
+  "display_resolution_db": 0.01,
+  "display_rounding_tolerance_db": 0.005,
+  "python_s11_db": -0.5221318976326507,
+  "rust_s11_db": -0.5221318976326486,
+  "display_difference_db": 0.002131897632650648,
+  "marker_s11_db_check_passed": true,
+  "frozen_buffer_before_after_identical": true,
+  "rust_python_comparison_points": 101,
+  "max_absolute_rust_python_errors": {
+    "frequency_hz": 0.0,
+    "magnitude": 2.220446049250313e-16,
+    "s11_db": 2.1094237467877974e-15,
+    "phase_deg": 0.0,
+    "z_re_ohm": 4.547473508864641e-13,
+    "z_im_ohm": 1.1368683772161603e-13,
+    "vswr": 4.604316927725449e-12
+  },
+  "scope": "Plausibility of S11-dB transformation against rounded device marker at 2.4 GHz, not independent instrument accuracy; no quantitative Smith R/L marker check claimed."
+}

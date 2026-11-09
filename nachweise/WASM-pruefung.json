@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-08",
+  "tools": {
+    "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+    "cargo": "cargo 1.99.1 (5f94df478 2026-08-27)",
+    "wasm-pack": "wasm-pack 0.15.1",
+    "wasm-bindgen": "wasm-bindgen 0.2.130"
+  },
+  "source_sha256": {
+    "css-wasm/src/lib.rs": "41ed3861e97222250a3183ce44f7a1d254307634bcfabaecfe55c7677a22adc1",
+    "css-wasm/Cargo.toml": "453098d680f2547b18e66769a7cd9c74f461917c932314387c60a63b96fe3802",
+    "css-wasm/Cargo.lock": "9515e042291108d43c6b60ba9e8d95596089f7e9cd16c287cb829de5a0f46d93",
+    "frontend/lib/css-model.ts": "ac7ba59ee438cb61546c3aa422a6c36f7063ff3a7b14d84798534505cec137bd",
+    "frontend/lib/css-wasm.ts": "bab0dd51790232ce034e093b23d92038e0699a4a27590db908ca286c111f3759",
+    "frontend/scripts/build-wasm.mjs": "5e78091f81bc19890848de1d62551d3ddebfb4fd8f28df5879ce9fa01495b417",
+    "frontend/tests/model.test.ts": "6e9b4cd3915539263a9aaa091afa372b2c536e194f116a54e94e3dc5356708ec"
+  },
+  "checks": {
+    "native_rust_tests": {
+      "passed": 4,
+      "command": "cargo test --manifest-path css-wasm/Cargo.toml --locked"
+    },
+    "wasm_frontend_tests": {
+      "passed": 7,
+      "command": "pnpm test",
+      "all_noiseless_symbols": 896,
+      "python_sample_abs_tolerance": 1e-10,
+      "python_fft_abs_tolerance": 1e-08
+    },
+    "cargo_fmt": "passed",
+    "cargo_clippy_deny_warnings": "passed",
+    "frontend_lint": "passed",
+    "frontend_typecheck": "passed",
+    "frontend_static_build": "passed",
+    "browser": {
+      "actual_wasm_instantiation": true,
+      "wasm_http_status": 200,
+      "wasm_mime": "application/wasm",
+      "presets_noise_sf9_keyboard_reset": "passed",
+      "viewports_without_overflow": [
+        1440,
+        390,
+        320
+      ],
+      "missing_binary_and_explicit_retry": "passed",
+      "runtime_errors": []
+    },
+    "isolated_npm_archive_install_and_package_import": "passed",
+    "bibliography_groups_and_exported_sources": "passed",
+    "pdf_changed_pages_visual_review": "passed"
+  },
+  "artifacts": {
+    "css-wasm/pkg/css_wasm_bg.wasm": {
+      "sha256": "ad761e5086b69e80a735629fef5fcfc2e30a0faad2f5ca8959407418428ce12c",
+      "bytes": 140771
+    },
+    "css-wasm/dist/wseminar-css-wasm-0.1.0.tgz": {
+      "sha256": "d67404c9d89e748817bdeadfbb1bb2c05e1d2040cfd70d87829066b011b4f1be",
+      "bytes": 58235
+    },
+    "arbeit.pdf": {
+      "sha256": "dcc931f908b19fa3bc8e1f005409dcaf8918db2a867d419e05e1961bb0e4e953",
+      "bytes": 1016250
+    }
+  },
+  "scope": "Modell-, Software- und Browserprüfung; keine Hardwarevalidierung und kein Geschwindigkeitsvergleich mit JavaScript."
+}

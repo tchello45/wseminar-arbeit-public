@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Primärliteratur (Originalarbeiten)",
+    "keys": [
+      "chiani2019",
+      "demeslay2022",
+      "nist-calstandards"
+    ]
+  },
+  {
+    "title": "Sekundärliteratur (Lehrbücher und Lehrmaterialien)",
+    "keys": [
+      "gronau2001",
+      "stutzman2013",
+      "chang2003",
+      "feynman18",
+      "feynman20",
+      "feynman-interferenz",
+      "staelin2",
+      "staelin7",
+      "staelin10",
+      "staelin11",
+      "steer-microstrip",
+      "maleki2023",
+      "wyatt-signale",
+      "orloff-komplex",
+      "gallager-rauschen",
+      "nist-wilson",
+      "ntia-handbuch"
+    ]
+  },
+  {
+    "title": "Software-Dokumentation und Online-Quellen",
+    "keys": [
+      "semtech-phy",
+      "elrs-lua",
+      "nist-pegel",
+      "itu-freiraum",
+      "ti-an058",
+      "sysjoint-fv2",
+      "elrs-fhss-356",
+      "ti-an043",
+      "ti-dn007",
+      "silabs-an1088",
+      "qpdk-microstrip",
+      "mathworks-fields",
+      "numpy-fft",
+      "numpy-streams",
+      "numpy-kompatibilitaet",
+      "keysight-reflection",
+      "keysight-calstandards",
+      "keysight-portextensions",
+      "rust-wasm-target",
+      "wasm-bindgen-deployment"
+    ]
+  }
+]

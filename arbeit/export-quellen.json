@@ -1,0 +1,18 @@
+{
+  "listings/css-wasm.rs": {
+    "source": "css-wasm/src/lib.rs",
+    "sha256": "41ed3861e97222250a3183ce44f7a1d254307634bcfabaecfe55c7677a22adc1"
+  },
+  "listings/kapitel6.py": {
+    "source": "tools/src/simulation/kapitel6.py",
+    "sha256": "23bf230762a5b895c385bb3bafbb07539053a8112be50ddf6fed119f5be12112"
+  },
+  "tabellen/nanovna-zentrum.typ": {
+    "source": "daten/auswertung/kapitel7/tabelle.typ",
+    "sha256": "ed62986505ca263c4747368ee5c27a4213e764b659917613f4fe7b03e8d9f9f6"
+  },
+  "literatur.bib": {
+    "source": "literatur.bib",
+    "sha256": "90c258a271dbc1cd50fc392a40e8206d113af8d6721a803754eec000c818f77a"
+  }
+}

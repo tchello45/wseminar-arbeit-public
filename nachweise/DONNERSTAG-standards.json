@@ -1,0 +1,92 @@
+[
+  {
+    "standard": "Open",
+    "repeat": 1,
+    "file": "daten/nanovna/20261105T103915_555618/Open_01_01/Open_01_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.9937769478212906,
+    "s11_db_2_4GHz": -0.05422163198930832,
+    "phase_deg_2_4GHz": -0.3245969479426355,
+    "sha256": "338770d4d578df038ac5abc513defb38c4919b4ff70829ee0906cf8ee4aa3980"
+  },
+  {
+    "standard": "Open",
+    "repeat": 2,
+    "file": "daten/nanovna/20261105T104123_453402/Open_02_01/Open_02_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.9956500385321141,
+    "s11_db_2_4GHz": -0.03786570225141143,
+    "phase_deg_2_4GHz": -0.015940270693164185,
+    "sha256": "2d4afd2b76fa099d81d496220919eee7da61b1528607847e0f8683cbdeaa7bde"
+  },
+  {
+    "standard": "Open",
+    "repeat": 3,
+    "file": "daten/nanovna/20261105T104414_363649/Open_03_01/Open_03_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.9969381919296703,
+    "s11_db_2_4GHz": -0.02663532395677287,
+    "phase_deg_2_4GHz": -0.6602500417585074,
+    "sha256": "0bfe1c96605c224db6fbda08ddea111429dedbad97e7e0eaf7c690d4e32eb940"
+  },
+  {
+    "standard": "Short",
+    "repeat": 1,
+    "file": "daten/nanovna/20261105T104652_675497/Short_01_01/Short_01_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.9914026739625024,
+    "s11_db_2_4GHz": -0.07499828143169075,
+    "phase_deg_2_4GHz": 179.93319169106016,
+    "sha256": "45e6ecf7a9c49d3e7bb415d0d7c1e7470ff4643f97f334a05ff16de3e6930991"
+  },
+  {
+    "standard": "Short",
+    "repeat": 2,
+    "file": "daten/nanovna/20261105T110509_611427/Short_02_01/Short_02_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.9857633714761367,
+    "s11_db_2_4GHz": -0.12454646376249863,
+    "phase_deg_2_4GHz": 179.605456201474,
+    "sha256": "94b1ce9bc247112710fa78988f202c6cb250e16aa0b4fddf266eb290420910fc"
+  },
+  {
+    "standard": "Short",
+    "repeat": 3,
+    "file": "daten/nanovna/20261105T110607_158287/Short_03_01/Short_03_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.9914731069781973,
+    "s11_db_2_4GHz": -0.07438122472310582,
+    "phase_deg_2_4GHz": 179.6088263597409,
+    "sha256": "0f344d93ee15b1a2df6765af0a2f5f72ed06bfe428b001010c859eaa30c209d4"
+  },
+  {
+    "standard": "Load",
+    "repeat": 1,
+    "file": "daten/nanovna/20261105T110701_222833/Load_01_01/Load_01_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.0074764443420652854,
+    "s11_db_2_4GHz": -42.52609790837766,
+    "phase_deg_2_4GHz": -6.250484681632378,
+    "sha256": "9ab70f70831dacb368469743365b787e3b366d0420115750e600117c0ed2dd1a"
+  },
+  {
+    "standard": "Load",
+    "repeat": 2,
+    "file": "daten/nanovna/20261105T110815_587534/Load_02_01/Load_02_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.011124185228590901,
+    "s11_db_2_4GHz": -39.07463576637478,
+    "phase_deg_2_4GHz": -26.22644936244429,
+    "sha256": "6466933ea3a6827a10fbed3472f7016781bf583ef1dc1972ab3fb8cb5a1cdb0b"
+  },
+  {
+    "standard": "Load",
+    "repeat": 3,
+    "file": "daten/nanovna/20261105T111402_014034/Load_03_01/Load_03_01.s1p",
+    "points": 101,
+    "magnitude_2_4GHz": 0.0035557828955097917,
+    "s11_db_2_4GHz": -48.981295269899654,
+    "phase_deg_2_4GHz": -44.08844955751133,
+    "sha256": "1fec735db67cbe274ccbc6ae2657cb8b66557f6513a462af1fee05ee295c98ce"
+  }
+]

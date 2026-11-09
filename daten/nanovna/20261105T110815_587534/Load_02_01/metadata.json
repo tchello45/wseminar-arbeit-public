@@ -1,0 +1,25 @@
+{
+  "synthetic": false,
+  "device": {
+    "model": "NanoVNA-F V2",
+    "info": "Model:        NanoVNA-F_V2\nFrequency:    50k ~ 3GHz\nBuild time:   Jun  4 2026 - 16:06:29 CST",
+    "version": "0.6.5",
+    "help": "There are all commands\nhelp:                lists all the registered commands\nreset:               usage: reset\ncwfreq:              usage: cwfreq {frequency(Hz)}\nsaveconfig:          usage: saveconfig\nclearconfig:         usage: clearconfig {protection key}\ndata:                usage: data [array]\nfrequencies:         usage: frequencies\nscan:                usage: scan {start(Hz)} {stop(Hz)} [points] [outmask]\nsweep:               usage: sweep [start(Hz)] [stop(Hz)] [points]\ntouchcal:            usage: touchcal\ntouchtest:           usage: touchtest\npause:               usage: pause\nresume:              usage: resume\ncal:                 usage: cal [load|open|short|thru|done|reset|on|off]\nsave:                usage: save {id}\nrecall:              usage: recall {id}\ntrace:               usage: trace [0|1|2|3|all] [{format}|scale|refpos|channel|off] [{value}]\nmarker:              usage: marker [1|2|3|4] [on|off|{index}]\nedelay:              usage: edelay {value}\npwm:                 usage: pwm {0.0-1.0}\nbeep:                usage: beep on/off\nlcd:                 usage: lcd X Y WIDTH HEIGHT FFFF\ncapture:             usage: capture\nversion:             usage: Show NanoVNA version\ninfo:                usage: NanoVNA-F V2 info\nSN:                  usage: NanoVNA-F V2 Serial Numbel\nresolution:          usage: LCD resolution\nLCD_ID:              usage: LCD ID\nvbat:                usage: show battery level",
+    "cal_state_response": "load open short cal'ed"
+  },
+  "name": "Load_02",
+  "repeat": 1,
+  "reference_plane": "Direkt am CH0/S11-Geräteport, wie bei der Kalibrierung; Nutzerbestätigung im Chat.",
+  "setup": "LOAD/50-Ohm-Kalibrierstandard direkt am Messport, ohne Messkabel. Zweite Anschlusswiederholung: nach Anweisung vollständig gelöst und erneut angeschlossen; Nutzer bestätigt Load 2.",
+  "calibration_note": "Vorhandene OSL-Gerätekalibrierung für 2,3 bis 2,5 GHz direkt am Geräteport; vom Nutzer am 05.11.2026 bestätigt; während der Standardsreihe unverändert; ursprüngliche Kalibrierzeit nicht dokumentiert.",
+  "requested_start_hz": 2300000000,
+  "requested_stop_hz": 2500000000,
+  "standards_are_independent_accuracy_proof": false,
+  "timestamp": "2026-11-05T11:08:16.120376+01:00",
+  "sha256": "801c860a3dc954ec117072ae0de075d6b4d2808585f846b0a95a8a9192d60453",
+  "reference_impedance_ohm": 50,
+  "sample_count": 101,
+  "calibration": "device output; no additional software correction",
+  "phase_display_threshold_magnitude": 0.001,
+  "csv_undefined": "empty cell; VSWR undefined for |Gamma| >= 1"
+}

@@ -1,0 +1,11 @@
+[package]
+name = "auswertung"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+csv = "1.4"
+num-complex = "0.4"
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"

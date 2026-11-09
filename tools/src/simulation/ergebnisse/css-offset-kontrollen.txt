@@ -1,0 +1,40 @@
+CSS-Frequenzoffset: ohne Rauschen; B = f_s = 125000 Hz
+delta = Delta_f/(B/M); Faktor exp(j*2*pi*delta*n/M)
+delta=0: Signalsamples exakt unverändert
+SF 7, M=128, delta=+0, Delta_f=0 Hz: 128/128 erwartungsgemäß
+  m=0: erwartet=0, erkannt=0
+  m=17: erwartet=17, erkannt=17
+  m=127: erwartet=127, erkannt=127
+SF 7, M=128, delta=+1, Delta_f=976.562 Hz: 128/128 erwartungsgemäß
+  m=0: erwartet=1, erkannt=1
+  m=17: erwartet=18, erkannt=18
+  m=127: erwartet=0, erkannt=0
+SF 7, M=128, delta=-1, Delta_f=-976.562 Hz: 128/128 erwartungsgemäß
+  m=0: erwartet=127, erkannt=127
+  m=17: erwartet=16, erkannt=16
+  m=127: erwartet=126, erkannt=126
+SF 8, M=256, delta=+0, Delta_f=0 Hz: 256/256 erwartungsgemäß
+  m=0: erwartet=0, erkannt=0
+  m=17: erwartet=17, erkannt=17
+  m=255: erwartet=255, erkannt=255
+SF 8, M=256, delta=+1, Delta_f=488.281 Hz: 256/256 erwartungsgemäß
+  m=0: erwartet=1, erkannt=1
+  m=17: erwartet=18, erkannt=18
+  m=255: erwartet=0, erkannt=0
+SF 8, M=256, delta=-1, Delta_f=-488.281 Hz: 256/256 erwartungsgemäß
+  m=0: erwartet=255, erkannt=255
+  m=17: erwartet=16, erkannt=16
+  m=255: erwartet=254, erkannt=254
+SF 9, M=512, delta=+0, Delta_f=0 Hz: 512/512 erwartungsgemäß
+  m=0: erwartet=0, erkannt=0
+  m=17: erwartet=17, erkannt=17
+  m=511: erwartet=511, erkannt=511
+SF 9, M=512, delta=+1, Delta_f=244.141 Hz: 512/512 erwartungsgemäß
+  m=0: erwartet=1, erkannt=1
+  m=17: erwartet=18, erkannt=18
+  m=511: erwartet=0, erkannt=0
+SF 9, M=512, delta=-1, Delta_f=-244.141 Hz: 512/512 erwartungsgemäß
+  m=0: erwartet=511, erkannt=511
+  m=17: erwartet=16, erkannt=16
+  m=511: erwartet=510, erkannt=510
+Alle 2688 Symbol-/Offsetkontrollen bestanden.

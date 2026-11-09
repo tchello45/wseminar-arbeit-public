@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="396pt" viewBox="0 0 720 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-04T18:10:26.787057</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 720 396 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 135.441132 313.47247 
+L 306.278061 313.47247 
+L 306.278061 93.82499 
+L 135.441132 93.82499 
+L 135.441132 313.47247 
+z
+" clip-path="url(#p2bd8ce4be1)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 135.441132 313.47247 
+L 306.278061 313.47247 
+L 306.278061 142.635541 
+L 135.441132 142.635541 
+z
+" clip-path="url(#p2bd8ce4be1)" style="fill: #d9e5e9; stroke: #607d8b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 135.441132 142.635541 
+L 306.278061 142.635541 
+L 306.278061 93.82499 
+L 135.441132 93.82499 
+z
+" clip-path="url(#p2bd8ce4be1)" style="fill: #faf1d9; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #a48027; stroke-linejoin: miter"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m58e7dee2b9" d="M 0 3.162278 
+C 0.838646 3.162278 1.643056 2.82908 2.236068 2.236068 
+C 2.82908 1.643056 3.162278 0.838646 3.162278 0 
+C 3.162278 -0.838646 2.82908 -1.643056 2.236068 -2.236068 
+C 1.643056 -2.82908 0.838646 -3.162278 0 -3.162278 
+C -0.838646 -3.162278 -1.643056 -2.82908 -2.236068 -2.236068 
+C -2.82908 -1.643056 -3.162278 -0.838646 -3.162278 0 
+C -3.162278 0.838646 -2.82908 1.643056 -2.236068 2.236068 
+C -1.643056 2.82908 -0.838646 3.162278 0 3.162278 
+z
+" style="stroke: #455a64"/>
+    </defs>
+    <g clip-path="url(#p2bd8ce4be1)">
+     <use xlink:href="#m58e7dee2b9" x="159.846408" y="167.040816" style="fill: #455a64; stroke: #455a64"/>
+    </g>
+   </g>
+   <g id="line2d_1">
+    <path d="M 159.846408 142.635541 
+L 159.846408 113.34921 
+L 281.872786 113.34921 
+" clip-path="url(#p2bd8ce4be1)" style="fill: none; stroke: #9c5126; stroke-width: 4"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 184.251684 167.040816 
+L 184.251684 113.34921 
+" clip-path="url(#p2bd8ce4be1)" style="fill: none; stroke: #9c5126; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 159.846408 167.040816 
+L 159.846408 142.635541 
+" clip-path="url(#p2bd8ce4be1)" style="fill: none; stroke: #455a64; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(183.813347 187.045743)">Massefläche</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(183.152409 201.448086)">35 × 35 mm</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(191.310534 215.851368)">L1 und L2</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 248.894721 85.359166 
+Q 264.621901 98.707568 279.496679 111.332496 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 277.390134 106.396661 
+L 279.496679 111.332496 
+L 274.284084 110.056231 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="237.94329" y="79.181824" transform="rotate(-0 237.94329 79.181824)">offenes Ende</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 225.873697 122.259034 
+Q 226.776747 118.772108 227.399495 116.367509 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 223.872735 120.412502 
+L 227.399495 116.367509 
+L 228.519433 121.615912 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="223.300124" y="135.313958" transform="rotate(-0 223.300124 135.313958)">Strahler</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 113.630695 128.391719 
+Q 135.75833 132.874521 156.79019 137.135332 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 152.56229 133.830053 
+L 156.79019 137.135332 
+L 151.609227 138.534484 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end" x="115.916912" y="123.11132" transform="rotate(-0 115.916912 123.11132)">Short → Masse</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 316.919517 125.25295 
+Q 251.583605 126.602055 187.365489 127.928079 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 192.214012 130.228475 
+L 187.365489 127.928079 
+L 192.114919 125.429498 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="320.921227" y="127.992376" transform="rotate(-0 320.921227 127.992376)">Feed</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 312.040805 166.6237 
+Q 249.146547 166.828993 187.370316 167.030637 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 192.178125 169.414957 
+L 187.370316 167.030637 
+L 192.162457 164.614982 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(316.040172 162.399645)">50-Ω-Leitung</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(316.040172 176.802927)">über Masse</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 312.050328 146.483026 
+Q 285.756695 144.629616 260.578328 142.854819 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 265.197693 145.586388 
+L 260.578328 142.854819 
+L 265.535202 140.798269 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="316.040172" y="152.397651" transform="rotate(-0 316.040172 152.397651)">Massekante</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="220.859597" y="332.99669" transform="rotate(-0 220.859597 332.99669)">Platinenbreite 35 mm; Länge 45 mm</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="220.859597" y="352.520911" transform="rotate(-0 220.859597 352.520911)">Prinzipskizze: Strahlerweg nicht bemaßt</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 14.4px; font-family: 'DejaVu Sans'; text-anchor: start" x="47.58214" y="44.657604" transform="rotate(-0 47.58214 44.657604)">(a) IFA und Flächenaufteilung</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_11">
+    <path d="M 469.745628 129.463618 
+L 680.673959 129.463618 
+L 680.673959 120.407319 
+L 469.745628 120.407319 
+z
+" clip-path="url(#ped5db3afa5)" style="fill: #eee5cc; stroke: #888888; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 469.745628 129.463618 
+L 680.673959 129.463618 
+" clip-path="url(#ped5db3afa5)" style="fill: none; stroke: #607d8b; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 469.745628 120.407319 
+L 614.758855 120.407319 
+" clip-path="url(#ped5db3afa5)" style="fill: none; stroke: #9c5126; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 528.953551 90.727578 
+Q 538.341425 104.735967 547.10688 117.815595 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 546.428381 112.492096 
+L 547.10688 117.815595 
+L 542.440982 115.164295 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="522.477711" y="84.182122" transform="rotate(-0 522.477711 84.182122)">L1: Speiseleitung</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 593.82825 153.712309 
+Q 623.16554 139.753328 651.493252 126.274715 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 646.127713 126.169867 
+L 651.493252 126.274715 
+L 648.19005 130.504238 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="575.209794" y="165.688816" transform="rotate(-0 575.209794 165.688816)">FR4, h = 1,00 mm</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="575.209794" y="192.857714" transform="rotate(-0 575.209794 192.857714)">L2: durchgehende Bezugsmasse</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(480.834481 260.70676)">Strahlerzone: auf beiden Lagen</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(474.413544 281.10676)">kein weiteres Kupfer; Ausnahmen</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(485.600731 302.057072)">sind Strahler, Feed und Short.</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(485.324169 323.06926)">Keine Bauteile in dieser Zone.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 14.4px; font-family: 'DejaVu Sans'; text-anchor: start" x="449.971097" y="23.900625" transform="rotate(-0 449.971097 23.900625)">(b) Schnitt durch die Zuleitung</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2bd8ce4be1">
+   <rect x="47.58214" y="59.657604" width="385.603354" height="302.625417"/>
+  </clipPath>
+  <clipPath id="ped5db3afa5">
+   <rect x="449.971097" y="38.900625" width="257.068903" height="344.139375"/>
+  </clipPath>
+ </defs>
+</svg>

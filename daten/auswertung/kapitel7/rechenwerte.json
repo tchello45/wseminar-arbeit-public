@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-05",
+  "frequency_hz": 2400000000,
+  "repeats_per_configuration": 3,
+  "total_acquisitions": 18,
+  "source_hashes_checked": true,
+  "identical_frequency_grids": true,
+  "groups": {
+    "Open": {
+      "magnitude_mean": 0.9954550594276915,
+      "magnitude_min": 0.9937769478212906,
+      "magnitude_max": 0.9969381919296703,
+      "phase_mean_deg": -0.33359575346476905,
+      "phase_min_deg": -0.6602500417585074,
+      "phase_max_deg": -0.015940270693164185,
+      "all_band_magnitude_min": 0.9790654059974746,
+      "all_band_magnitude_max": 1.0230833476037033,
+      "effective_round_trip_ns": null,
+      "rms_complex_spread_at_2_4GHz": 0.004753913241857816
+    },
+    "Short": {
+      "magnitude_mean": 0.9895463841389455,
+      "magnitude_min": 0.9857633714761367,
+      "magnitude_max": 0.9914731069781973,
+      "phase_mean_deg": 179.71582475075834,
+      "phase_min_deg": 179.605456201474,
+      "phase_max_deg": 179.93319169106013,
+      "all_band_magnitude_min": 0.9623150075739233,
+      "all_band_magnitude_max": 1.0054576687484162,
+      "effective_round_trip_ns": null,
+      "rms_complex_spread_at_2_4GHz": 0.003769618342013505
+    },
+    "Load": {
+      "magnitude_mean": 0.007385470822055326,
+      "magnitude_min": 0.0035557828955097917,
+      "magnitude_max": 0.011124185228590901,
+      "phase_mean_deg": null,
+      "phase_min_deg": null,
+      "phase_max_deg": null,
+      "all_band_magnitude_min": 0.0003128785706947665,
+      "all_band_magnitude_max": 0.041356187275908306,
+      "effective_round_trip_ns": null,
+      "rms_complex_spread_at_2_4GHz": 0.0035112214715426627
+    },
+    "Kabel1_Offen": {
+      "magnitude_mean": 0.9847791286909343,
+      "magnitude_min": 0.9827402550470801,
+      "magnitude_max": 0.9873916272771407,
+      "phase_mean_deg": 89.64865775767798,
+      "phase_min_deg": 89.30041622126255,
+      "phase_max_deg": 89.87076201271543,
+      "all_band_magnitude_min": 0.9415193943493677,
+      "all_band_magnitude_max": 1.017389202109989,
+      "effective_round_trip_ns": [
+        2.0544306876813443,
+        2.0536187490509312,
+        2.049337700157032
+      ],
+      "rms_complex_spread_at_2_4GHz": 0.004702456001330003
+    },
+    "Kabel1_Adapter_Open": {
+      "magnitude_mean": 0.9403972319322275,
+      "magnitude_min": 0.9375947550023943,
+      "magnitude_max": 0.9426193474282183,
+      "phase_mean_deg": 10.318966367100643,
+      "phase_min_deg": 10.167287877383727,
+      "phase_max_deg": 10.601005822172718,
+      "all_band_magnitude_min": 0.896102006141042,
+      "all_band_magnitude_max": 0.9924640919171837,
+      "effective_round_trip_ns": [
+        2.1194608324086732,
+        2.1206901389639303,
+        2.118448993383654
+      ],
+      "rms_complex_spread_at_2_4GHz": 0.0038851576258599712
+    },
+    "Kabel1_Adapter_Short": {
+      "magnitude_mean": 0.9055098133935479,
+      "magnitude_min": 0.9022304291349301,
+      "magnitude_max": 0.9087806461165423,
+      "phase_mean_deg": -171.2844694930699,
+      "phase_min_deg": -171.7510999759535,
+      "phase_max_deg": -170.93492392252222,
+      "all_band_magnitude_min": 0.8686169311036943,
+      "all_band_magnitude_max": 0.9663418018537747,
+      "effective_round_trip_ns": [
+        2.046384796466185,
+        2.0464840678913165,
+        2.042394740080879
+      ],
+      "rms_complex_spread_at_2_4GHz": 0.006051926653737819
+    }
+  },
+  "rust_python": {
+    "Open": {
+      "points": 303,
+      "max_absolute_error_without_vswr": 2.9103830456733704e-11
+    },
+    "Short": {
+      "points": 303,
+      "max_absolute_error_without_vswr": 3.3306690738754696e-16
+    },
+    "Load": {
+      "points": 303,
+      "max_absolute_error_without_vswr": 2.1316282072803006e-14
+    },
+    "Kabel1_Offen": {
+      "points": 303,
+      "max_absolute_error_without_vswr": 5.684341886080802e-14
+    },
+    "Kabel1_Adapter_Open": {
+      "points": 303,
+      "max_absolute_error_without_vswr": 4.547473508864641e-13
+    },
+    "Kabel1_Adapter_Short": {
+      "points": 303,
+      "max_absolute_error_without_vswr": 1.4210854715202004e-14
+    }
+  },
+  "phase_separation_adapter_deg_at_2_4GHz": -178.39656413982948,
+  "script_sha256": "baf65435a884cb2496d569f72b99c53915f50e50765f7b131a82c7319163daa9"
+}

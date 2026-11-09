@@ -1,0 +1,131 @@
+{
+  "seed": 20261103,
+  "created_utc": "2026-11-03T13:30:32.145121+00:00",
+  "command": [
+    "/home/tilman/projects/wseminar/tools/.venv/bin/python",
+    "/home/tilman/projects/wseminar/tools/.venv/bin/css-simulation",
+    "--trials",
+    "5000",
+    "--seed",
+    "20261103",
+    "--bandwidth-hz",
+    "125000",
+    "--output",
+    "tools/src/simulation/ergebnisse"
+  ],
+  "working_directory": "/home/tilman/projects/wseminar",
+  "source_sha256": {
+    "basis.py": "532cd7d05486556df1df17de83920f0a85084c17b645435e0729b08a1a2e11e6",
+    "css.py": "bc09cf9262cf8b244ad9e9f5002082834e112489ab09dcbc401dfc0684a4ef5e"
+  },
+  "rng": "PCG64; SeedSequence([seed, campaign_id, sf, grid_index]); control=[seed,0]",
+  "csv_sha256": {
+    "css-awgn.csv": "21bd8b7c18445f855d255408763c0fe181fd69156fb49274b6e56fdd0fa29865",
+    "css-awgn-energy.csv": "56f29ad8b9fe3e5c647ccedb7e396141dcc284a90dc83523d08ca621f5c038d0",
+    "symbolparameter.csv": "36b50ce2a03e44f020d9f7f9c4e26d0dded28734749d6f19c9f54a270e769f5d"
+  },
+  "batch_size": 256,
+  "spreading_factors": [
+    7,
+    8,
+    9
+  ],
+  "sample_snr_grid_db": [
+    -24,
+    -22,
+    -20,
+    -18,
+    -16,
+    -14,
+    -12,
+    -10,
+    -8,
+    -6,
+    -4,
+    -2,
+    0
+  ],
+  "es_n0_grid_db": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "energy_campaign": "independently simulated; SNR_sample=Es/N0-10*log10(M)",
+  "trials_per_point": 5000,
+  "bandwidth_hz": 125000.0,
+  "sample_rate_hz": 125000.0,
+  "signal_power": 1,
+  "model": "synchronous uncoded discrete CSS; f_s=B; complex AWGN; noncoherent FFT detector",
+  "confidence_interval": "pointwise 95% Wilson binomial interval, not a simultaneous band",
+  "checks": {
+    "noiseless": [
+      {
+        "sf": 7,
+        "symbols": 128,
+        "correct": 128,
+        "max_unit_amplitude_deviation": 3.3306690738754696e-16
+      },
+      {
+        "sf": 8,
+        "symbols": 256,
+        "correct": 256,
+        "max_unit_amplitude_deviation": 3.3306690738754696e-16
+      },
+      {
+        "sf": 9,
+        "symbols": 512,
+        "correct": 512,
+        "max_unit_amplitude_deviation": 4.440892098500626e-16
+      }
+    ],
+    "discrete_orthogonality_checked": true,
+    "noise": {
+      "samples": 100000,
+      "snr_db": 0,
+      "power": 1.0067556916772427,
+      "real_variance": 0.502922253636526,
+      "imag_variance": 0.5038319500343729,
+      "real_mean": -3.938477325180891e-05,
+      "imag_mean": -0.0012192026834575507,
+      "covariance": -0.00011553369858084864
+    },
+    "noise_tolerances": {
+      "power_absolute": 0.02,
+      "variance_absolute": 0.01,
+      "mean_absolute": 0.01,
+      "covariance_absolute": 0.01
+    }
+  },
+  "reference_values": {
+    "wavelength_at_2_4ghz_m": 0.12491352416666666,
+    "half_wavelength_at_2_4ghz_m": 0.06245676208333333,
+    "fspl_at_10m_2_4ghz_db": 60.0520080561155,
+    "fspl_difference_2_4ghz_vs_868mhz_db": 8.833830330702282,
+    "hertzian_directivity_linear": 1.4999999999999998,
+    "half_wave_directivity_linear": 1.640922376984585,
+    "vswr_at_minus_10db": 1.924950591148529
+  },
+  "simulation_points": 69,
+  "total_awgn_symbols": 345000,
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "excluded": [
+    "coding",
+    "packet framing",
+    "timing and frequency offsets",
+    "multipath",
+    "interference",
+    "real receiver calibration",
+    "PCB antenna EM model"
+  ]
+}
