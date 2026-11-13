@@ -1,4 +1,3 @@
-// Lokale Listing-Kopie; die Gesamtprüfung gleicht sie mit dem ausführbaren Original ab.
 #let listing(teil) = {
   let code = read("../listings/kapitel6.py")
   let ausschnitt = code.split("# START " + teil + "\n").at(1)

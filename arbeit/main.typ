@@ -18,7 +18,6 @@
 #literaturverzeichnis()
 
 
-// Nach dem Haupttext und dem Literaturverzeichnis folgt der Anhang.
 #counter(heading).update(0)
 #set heading(numbering: "A.1", supplement: [Anhang])
 #include "anhang.typ"

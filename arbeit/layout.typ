@@ -1,10 +1,7 @@
-// Formale Orientierung: Philips seminararbeit/template.typ.
-// Die Vorlage ersetzt keine verbindliche schulische Formatvorgabe.
 #let seminararbeit(
   title: "Physik der Funkübertragung mit LoRa-CSS",
   subtitle: "Signalverarbeitung, theoretischer PCB-Antennenentwurf und ergänzende NanoVNA-Messungen",
   author: "Tilman Kurmayer",
-  // Aus der Vergleichsarbeit übernommen; vor Abgabe persönlich abgleichen.
   school: "Oskar-von-Miller-Gymnasium",
   supervisor: "Roman Störmer",
   body,

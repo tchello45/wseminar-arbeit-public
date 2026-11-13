@@ -1,6 +1,3 @@
-// Gruppen wie in Philips Vergleichsarbeit. Alexandria 0.2.2 ist lokal beigelegt.
-// Fest zugeordnete IEEE-Nummern vermeiden eine Rückkopplung zwischen
-// Literaturzustand und Seitenberechnung. check_gesamt.py prüft die Zuordnung.
 #import "vendor/alexandria-0.2.2/src/hayagriva.typ" as hayagriva
 #import "vendor/alexandria-0.2.2/src/lib.typ": render-bibliography
 
@@ -17,7 +14,6 @@
   let daten = if supplement == none {
     bib.citations.at(alle.position(x => x == key))
   } else {
-    // Der Bibliografieprozessor formatiert auch Seiten- und Abschnittszusätze.
     lesen(basiszitate + (((key: key, form: "normal", supplement: repr(supplement), locale: "de"),),)).citations.last()
   }
   let footnote = daten.footnote

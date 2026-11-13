@@ -64,7 +64,6 @@ $ hat(m) = op("arg max", limits: #true)_(k in {0, dots, M-1}) abs(D[k]). $
 
 $hat(m)$ bezeichnet den geschätzten Symbolwert; $op("arg max")$ liefert den Index des größten Betrags. Bei SF 7 und $m=17$ beträgt der ideale Peak im Bin 17 somit 128. Diese Entscheidung ist *nichtkohärent*: Eine konstante unbekannte Empfangsphase dreht alle Spektralwerte um denselben Winkel und ändert ihre Beträge nicht. @lit:demeslay2022[Abschn. III-B, S. 3, Gl. (3)–(4)]
 
-// Kontrollierte Modellgrafik; numerische Prüfwerte in Kapitel 6.
 #figure(image("../abbildungen/css-dechirping.svg", width: 100%), caption: [Eigene Modellrechnung bei SF 7. Links: Frequenz des Referenzchirps. Rechts: Dechirping von Symbol 17, dargestellt als $abs(D[k])/M$ (Peak eins, unnormiert 128). Kein gemessenes HF-Signal.])
 
 == Spreizung und Symbolenergie
